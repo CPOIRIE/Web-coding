@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>TV Shows</title>
+        <link rel="stylesheet" href="./../style.css">
+        <meta charset="uft-8">         
+    </header>
+    <body>
+        <nav>
+            <div id="menus">
+                <h1 id="">HOME</h1>
+                <h1 id="all" class="AfficherTendences">ALL</h1>
+                <h1 id="movies" class="AfficherTendences">MOVIES</h1>
+                <h1 id="tvShows" class="AfficherTendences">SHOWS</h1>               
+            </div>
+            <div id="titrePrincipal"><p id="titre">HOME</p></div>
+            <div id="search">
+                <input type="text"  id="searchValue" value="Search" onclick="this.value = '';"/>
+                <input type="button" value="valider" id="searchButton">
+            </div>
+        
+
+        </nav>
+        <div id="corpsPage">
+
+        </div>
+        <div id="detailSaison">
+           <!--  /* DIV attaquée par ajax pour afficher le détails d'une saison lorsque l'on clique sur le bouton correspondant */ -->
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="ajax.js"></script>
+    </body>
+</html>
